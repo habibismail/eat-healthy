@@ -1,9 +1,11 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .pic-hero {
-    width: 600px;
+    width: 700px;
+
 
 }
 
@@ -19,20 +21,65 @@ body {
 
 .heading {
     color: rgb(84, 81, 81);
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 60px;
+    font-weight: 780;
 }
 
 .description {
     color: gray;
+    font-size: 20px;
+    margin-bottom: 70px;
 }
 
 .btn {
     text-decoration: none;
-    terget: _blank;
-
+    color: white;
+    font-size: 18px;
+    padding: 20px 40px;
+    border-radius: 40px;
+    background-image: linear-gradient(to bottom left, rgb(31, 180, 239), rgb(42, 65, 238));
+    box-shadow: 5px 5px 10px rgb(42, 65, 238);
 }
 
 .title-1 {
-    margin-top: 100px;
+    margin-top: 80px;
+}
+
+.heading-2 {
+    text-align: center;
+    color: gray;
+    font-size: 38px;
+}
+
+.about-des {
+    font-size: 18px;
+    margin: 50px 200px;
+
+}
+
+
+
+.middle-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.btn-2 {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 20px 40px;
+    border-radius: 40px;
+    background-image: linear-gradient(to bottom left, rgb(31, 180, 239), rgb(42, 65, 238));
+    box-shadow: 5px 5px 10px rgb(42, 65, 238);
+
+}
+
+.bg-image {
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-size: cover;
 }
