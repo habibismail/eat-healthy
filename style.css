@@ -1,0 +1,38 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.pic-hero {
+    width: 600px;
+
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 20px;
+}
+
+.skip {
+    color: rgb(31, 180, 239);
+}
+
+.heading {
+    color: rgb(84, 81, 81);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.description {
+    color: gray;
+}
+
+.btn {
+    text-decoration: none;
+    terget: _blank;
+
+}
+
+.title-1 {
+    margin-top: 100px;
+}
